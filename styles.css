@@ -1,0 +1,40 @@
+body{
+    margin:0px;
+    border:0px;
+    font-family:'Courier New', Courier, monospace;
+}
+.header{
+    height:80px;
+    width:100%;
+    
+    display: flex;
+    Justify-content: space-between;
+    align-items:center;
+    background-color: black;
+    color:aliceblue;
+}
+
+.header h1{
+    margin:20px;
+    
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    margin-right:20px;
+    
+}
+
+.navigation a{
+    margin: 10px;
+    text-decoration: none;
+}
+
+.navigation a li {
+    display: table-cell;
+    color:aliceblue;
+    
+}
+
+
