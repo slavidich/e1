@@ -4,37 +4,77 @@ body{
     font-family:'Courier New', Courier, monospace;
 }
 .header{
-    height:80px;
+    height:70px;
     width:100%;
-    
     display: flex;
     Justify-content: space-between;
     align-items:center;
     background-color: black;
     color:aliceblue;
 }
-
 .header h1{
     margin:20px;
-    
 }
+.logo {
+    height: 100%;
+    display: flex;
+    align-items:center;
+}
+
 
 .navigation{
     display: flex;
     flex-direction: row;
     margin-right:20px;
-    
+    height: 100%;
 }
 
 .navigation a{
+    display: table;
     margin: 10px;
     text-decoration: none;
+}
+.navigation a li:hover{
+    color: gray;
+    
 }
 
 .navigation a li {
     display: table-cell;
     color:aliceblue;
-    
+    vertical-align: middle;
 }
 
+.content{
+    
+    margin-left:35%;
+    margin-right: 35%;
+}
+.content h3{
+    margin-left:10px
+}
+.content p{
+    text-align: justify;
+}
+.imgleft{
+    width: 40%;
+    height: 250px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+.imgright{
+    width: 40%;
+    height: 210px;
+    float: right;
+    margin-left: 15px;
+    margin-top: 10px;
+}
 
+.lulist li{
+    margin-left:250px;
+}
+
+.lulists{
+    list-style-type:upper-latin
+}
